@@ -1,3 +1,12 @@
 spring:
   application:
     name: mfstore
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/mfstore}
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:password}
+
+  jpa:
+    open-in-view: true
