@@ -1,5 +1,6 @@
-package br.com.example.mfstore.domain.model.entity;
+package br.com.example.mfstore.cart.domain;
 
+import br.com.example.mfstore.catalog.domain.Product;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

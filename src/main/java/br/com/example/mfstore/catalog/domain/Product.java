@@ -1,6 +1,6 @@
-package br.com.example.mfstore.domain.model.entity;
+package br.com.example.mfstore.catalog.domain;
 
-import br.com.example.mfstore.domain.model.enums.ProductStatus;
+import br.com.example.mfstore.cart.domain.ProductStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

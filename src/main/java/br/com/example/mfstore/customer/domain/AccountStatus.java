@@ -1,4 +1,4 @@
-package br.com.example.mfstore.domain.model.enums;
+package br.com.example.mfstore.customer.domain;
 
 public enum AccountStatus {
 
