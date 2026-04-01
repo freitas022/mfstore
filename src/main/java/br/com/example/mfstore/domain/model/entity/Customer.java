@@ -34,4 +34,7 @@ public class Customer {
     @JoinColumn(name = "customer_id")
     @Builder.Default
     private List<Address> addresses = new ArrayList<>();
+
+    @OneToOne(mappedBy = "customer")
+    private Account account;
 }

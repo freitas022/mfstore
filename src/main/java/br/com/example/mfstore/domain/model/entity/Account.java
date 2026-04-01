@@ -9,7 +9,7 @@ import java.time.Instant;
 
 @Entity
 @Table(name = "tb_account")
-@NoArgsConstructor @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor @AllArgsConstructor
 @Getter @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Builder
@@ -25,6 +25,10 @@ public class Account {
 
     @CreationTimestamp
     private Instant createdAt;
+
+    @OneToOne
+    @JoinColumn(name = "customer_id", nullable = false)
+    private Customer customer;
 
     public void activate() {
         this.status = AccountStatus.ACTIVE;
