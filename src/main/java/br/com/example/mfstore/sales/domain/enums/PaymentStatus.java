@@ -1,4 +1,4 @@
-package br.com.example.mfstore.payment.domain;
+package br.com.example.mfstore.sales.domain.enums;
 
 public enum PaymentStatus {
 

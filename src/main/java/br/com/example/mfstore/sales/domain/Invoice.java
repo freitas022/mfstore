@@ -1,4 +1,4 @@
-package br.com.example.mfstore.order.domain;
+package br.com.example.mfstore.sales.domain;
 
 import jakarta.persistence.*;
 import lombok.*;

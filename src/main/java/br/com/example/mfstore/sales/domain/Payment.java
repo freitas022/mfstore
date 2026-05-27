@@ -1,6 +1,7 @@
-package br.com.example.mfstore.payment.domain;
+package br.com.example.mfstore.sales.domain;
 
-import br.com.example.mfstore.order.domain.Order;
+import br.com.example.mfstore.sales.domain.enums.PaymentMethod;
+import br.com.example.mfstore.sales.domain.enums.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,6 +1,7 @@
-package br.com.example.mfstore.order.domain;
+package br.com.example.mfstore.sales.domain;
 
 import br.com.example.mfstore.customer.domain.Customer;
+import br.com.example.mfstore.sales.domain.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

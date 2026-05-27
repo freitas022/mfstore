@@ -1,4 +1,4 @@
-package br.com.example.mfstore.shipment.domain;
+package br.com.example.mfstore.tracking.domain;
 
 public enum ShipmentStatus {
     PENDING,

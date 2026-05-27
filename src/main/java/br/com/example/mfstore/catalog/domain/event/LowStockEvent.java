@@ -1,4 +1,4 @@
-package br.com.example.mfstore.inventory.event;
+package br.com.example.mfstore.catalog.domain.event;
 
 public record LowStockEvent(Long productId, int quantityAvailable) {
 }

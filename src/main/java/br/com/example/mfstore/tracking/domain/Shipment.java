@@ -1,6 +1,6 @@
-package br.com.example.mfstore.shipment.domain;
+package br.com.example.mfstore.tracking.domain;
 
-import br.com.example.mfstore.order.domain.Order;
+import br.com.example.mfstore.sales.domain.Order;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

@@ -1,6 +1,6 @@
 package br.com.example.mfstore.catalog.domain;
 
-import br.com.example.mfstore.cart.domain.ProductStatus;
+import br.com.example.mfstore.catalog.domain.enums.ProductStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

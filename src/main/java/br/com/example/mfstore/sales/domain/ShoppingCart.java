@@ -1,4 +1,4 @@
-package br.com.example.mfstore.cart.domain;
+package br.com.example.mfstore.sales.domain;
 
 import br.com.example.mfstore.catalog.domain.Product;
 import jakarta.persistence.*;

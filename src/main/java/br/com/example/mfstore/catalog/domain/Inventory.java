@@ -1,6 +1,5 @@
-package br.com.example.mfstore.inventory.domain;
+package br.com.example.mfstore.catalog.domain;
 
-import br.com.example.mfstore.catalog.domain.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

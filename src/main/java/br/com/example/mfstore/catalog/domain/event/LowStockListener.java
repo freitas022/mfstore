@@ -1,4 +1,4 @@
-package br.com.example.mfstore.inventory.event;
+package br.com.example.mfstore.catalog.domain.event;
 
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
